@@ -1419,5 +1419,33 @@
     "amount": 5,
     "reason": "Kredit awal (user baru)",
     "at": "2026-09-24T13:12:00.162Z"
+  },
+  {
+    "userId": 6102730631,
+    "type": "earn",
+    "amount": 5,
+    "reason": "Kredit awal (user baru)",
+    "at": "2026-09-24T13:54:40.049Z"
+  },
+  {
+    "userId": 8648694801,
+    "type": "earn",
+    "amount": 5,
+    "reason": "Kredit awal (user baru)",
+    "at": "2026-09-25T03:49:08.858Z"
+  },
+  {
+    "userId": 8305230310,
+    "type": "earn",
+    "amount": 5,
+    "reason": "Kredit awal (user baru)",
+    "at": "2026-09-25T03:54:52.934Z"
+  },
+  {
+    "userId": 8876070720,
+    "type": "earn",
+    "amount": 5,
+    "reason": "Kredit awal (user baru)",
+    "at": "2026-09-25T12:03:24.122Z"
   }
 ]
