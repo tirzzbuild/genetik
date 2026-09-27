@@ -10,5 +10,16 @@
     "status": "success",
     "created_at": "2026-09-24T23:58:16.842Z",
     "completed_at": "2026-09-25T00:08:24.302Z"
+  },
+  "mujkqusidf5hb": {
+    "job_id": "mujkqusidf5hb",
+    "release_id": 397572363,
+    "release_tag": "build-mujkqusidf5hb",
+    "run_id": 36307257541,
+    "user_id": 8170659322,
+    "analyze_only": false,
+    "build_type": "release",
+    "status": "pending",
+    "created_at": "2026-09-27T08:46:34.289Z"
   }
 }
