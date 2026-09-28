@@ -22,5 +22,16 @@
     "status": "failed",
     "created_at": "2026-09-27T08:46:34.289Z",
     "completed_at": "2026-09-27T08:50:32.069Z"
+  },
+  "mukxc2n5mhkmr": {
+    "job_id": "mukxc2n5mhkmr",
+    "release_id": 398027694,
+    "release_tag": "build-mukxc2n5mhkmr",
+    "run_id": 36391677929,
+    "user_id": 7848723736,
+    "analyze_only": false,
+    "build_type": "release",
+    "status": "pending",
+    "created_at": "2026-09-28T07:26:44.550Z"
   }
 }
