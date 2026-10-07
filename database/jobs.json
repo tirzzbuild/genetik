@@ -46,5 +46,16 @@
     "status": "success",
     "created_at": "2026-10-04T16:41:01.607Z",
     "completed_at": "2026-10-04T16:47:41.959Z"
+  },
+  "muy116rd3pg26": {
+    "job_id": "muy116rd3pg26",
+    "release_id": 405689589,
+    "release_tag": "build-muy116rd3pg26",
+    "run_id": 37614624655,
+    "user_id": 1394027518,
+    "analyze_only": false,
+    "build_type": "release",
+    "status": "pending",
+    "created_at": "2026-10-07T11:31:14.980Z"
   }
 }
