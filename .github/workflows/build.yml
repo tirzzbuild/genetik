@@ -466,7 +466,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          mkdir -p webview/app/src/main/java/com/tirzz/webview
+          mkdir -p webview/app/src/main/java/com/rendy/webview
           mkdir -p webview/app/src/main/res/values
           mkdir -p webview/app/src/main/assets
 
@@ -511,11 +511,11 @@ jobs:
           }
 
           android {
-              namespace 'com.tirzz.webview'
+              namespace 'com.rendy.webview'
               compileSdk 35
 
               defaultConfig {
-                  applicationId 'com.tirzz.webview'
+                  applicationId 'com.rendy.webview'
                   minSdk 23
                   targetSdk 35
                   versionCode 1
@@ -554,8 +554,8 @@ jobs:
           </resources>
           EOF
 
-          cat > webview/app/src/main/java/com/tirzz/webview/MainActivity.java <<'EOF'
-          package com.tirzz.webview;
+          cat > webview/app/src/main/java/com/rendy/webview/MainActivity.java <<'EOF'
+          package com.rendy.webview;
 
           import android.app.Activity;
           import android.os.Bundle;
@@ -678,7 +678,7 @@ jobs:
               -alias "$KS_ALIAS" \
               -keypass "$KEY_PASS" \
               -keyalg RSA -keysize 2048 -validity 10000 \
-              -dname "CN=Tirzz Debug,OU=Build,O=Tirzz,L=Jakarta,ST=JK,C=ID" \
+              -dname "CN=Rendy Debug,OU=Build,O=Rendy,L=Jakarta,ST=JK,C=ID" \
               >/tmp/keytool.log 2>&1
             if [ ! -s "$KS_FILE" ]; then
               echo "::error::[SIGN] Gagal membuat debug keystore."
